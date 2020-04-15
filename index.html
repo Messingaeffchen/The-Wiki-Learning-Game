@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="description" content="This Website contains a Learning-Game that uses Wikipedia articles about various topics to make practising and studying fun!">
+<title>The Wiki-Learning Game</title>
+<style>
+
+/*Design of "Start Game"-button*/
+#NewGameButton{text-decoration: none;
+    font-size: 130%;
+    font-weight:400;
+    color: white;
+    border: 1px solid white;
+    padding: 0.65em 1.7em;
+    display: inline-block;
+    overflow: auto;
+    border-radius: 2px;
+    transition: all 0.6s ease 0s;
+    cursor: pointer;
+    outline: none;
+    background-color:transparent;
+    opacity:0.9}
+#NewGameButton:hover{background-color:transparent; color: rgb(0, 204, 204); border-color: rgb(0, 204, 204)}
+/*Design of "Start-Game"-button*/
+
+/*Distance between main content and sidenav*/
+#main-page {margin-left:10%; margin-right:10%}
+/*Distance between main content and sidenav*/
+
+/*Design of Background image*/
+body {background-image: url("https://cdn.pixabay.com/photo/2016/06/02/02/33/triangles-1430105_1280.png"); color:white; font-family:sans-serif, monospace; background-attachment:fixed; background-size:cover; opacity:0.8}
+/*Design of Background image*/
+
+/*Design of headlines*/
+h1{text-align:center; color: rgb(0, 204, 204); font-family:"Helvetica", sans-serif, monospace; font:italic; text-shadow: 00 1px black; letter-spacing:1px; font-weight:400}
+
+h2{color: rgb(0, 204, 204); text-shadow: 00 1px black; opacity:0.9; font-weight:400}
+
+h3{color: rgb(0, 204, 204); text-shadow: 00 1px black; opacity:0.9; font-weight:400}
+
+h4{color: rgb(0, 204, 204); text-shadow: 00 1px black; opacity:0.9; font-weight:400}
+/*Design of headlines*/
+
+/*Design of sidenav element as a whole*/
+#mySidenav a {
+  position: fixed;
+  left: -130px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 150px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  opacity: 0.8;
+  margin-top:60px; 
+  letter-spacing:1px;
+  text-align:center;
+  font-weight:400}
+
+#mySidenav a:hover {
+  left:0;
+}
+/*Design of sidenav element as a whole*/
+
+/*Individual design of every sidenav element*/
+#about {
+  top: 20px;
+  background-color: rgb(0, 204, 204);
+margin-bottom:20px}
+
+#blog {
+  top: 80px;
+  background-color: rgb(237, 99, 48);
+}
+
+#projects {
+  top: 140px;
+  background-color: rgb(184, 45, 54);
+}
+
+#contact {
+  top: 200px;
+  background-color: rgb(248, 106, 227)
+}
+/*Individual design of every sidenav element*/
+
+</style>
+</head>
+<body>
+
+<!--Denominantion of each sidenav element with an individual id-->
+<div id="mySidenav" class="sidenav">
+  <a href="#" id="about">About</a>
+  <br>
+  <a href="#" id="blog">Blog</a>
+  <br>
+  <a href="#" id="projects">Projects</a>
+  <br>
+  <a href="#" id="contact">Contact</a>
+</div>
+<!--Denominantion of each sidenav element with an individual id-->
+
+<!--Denomination of the contents of the main page with an individual id-->
+<div id="main-page">
+<h1>
+The Wiki-Learning Game
+</h1>
+<br>
+<p>
+<center><strong>Welcome to the Wiki-Learning Game!</strong></center></p>
+<br>
+<p><strong><center>This Game was created to help you study, practise and memorize facts about various topics <em>and</em> have lots of fun while doing so.</center></strong>
+<br>
+<br>
+<center><h2>
+How it works
+</h2></center>
+<!--The steps are presented in the form of an unordered list-->
+<ol>
+<h4>
+<li>Select a topic:</li></h4>
+<p>The mechanics of this game are pretty simple: To start a new game, you first have to select a topic. After you have selected a topic, you will automatically be forwarded to the first level.</p>
+<h4>
+<li>Find the mistakes:</li></h4>
+<p>Each level consists of paragraphs from a Wikipedia article linked to the chosen topic, but if you browse through the contents, you will quickly realize that there are several mistakes hidden in the text.
+<h4>
+<li>Correct the mistakes:</li>
+</h4>
+<p>If you believe that you have spotted a mistake, you can find out whether your observation is correct by clicking on said word. If it really is a mistake, a text box will appear in place of the word and you can then enter the word that you think is correct instead.<br>
+If you have entered the correct word, the letters of this word will become green, if you have not yet found the correct word, the letters will remain red. 
+</p>
+<h4>
+<li>Move on to the next level:</li>
+</h4>
+<p>
+Once you have corrected all the mistakes, a button which directs you to the next level will appear on the bottom of the page.
+<br>
+<br>
+</p>
+<h3>
+<center>Push the button to start a new game!</center>
+</h3>
+<br>
+<br>
+<!--The Start-Game button is demoninated with an individual id, this element is a button that contains a link to another webpage-->
+<center><a href="https://www.html-seminar.de/html-leerzeichen.htm"><button type="button" id="NewGameButton">Start Game</button></a></center>
+<!--The Start-Game button is demoninated with an individual id, this element is a button that contains a link to another webpage-->
+<br>
+<br>
+</ol>
+<!--The steps are presented in the form of an unordered list-->
+</div>
+<!--Denomination of the contents of the main page with an individual id-->
+</body>
+</html>
