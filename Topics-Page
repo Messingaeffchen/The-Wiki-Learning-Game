@@ -1,0 +1,168 @@
+<html>
+
+<head>
+<meta name="description" content="Learning Game Categories">
+<title>The Wiki-Learning Game Categories</title>
+<style>
+
+/*Design of sidenav element as a whole*/
+#mySidenav a {
+  position: fixed;
+  left: -130px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 150px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  opacity: 0.8;
+  margin-top:60px; 
+  letter-spacing:1px;
+  text-align:center;
+  font-family:sans-serif}
+
+#mySidenav a:hover {
+  left:0;
+}
+/*Design of sidenav element as a whole*/
+
+/*Individual design of every sidenav element*/
+#Home {
+  top: 20px;
+  background-color: rgb(0, 204, 204);margin-bottom:20px}
+
+#Topics {
+  top: 80px;
+  background-color: rgb(237, 99, 48);
+}
+
+#Projects {
+  top: 140px;
+  background-color: rgb(184, 45, 54);
+}
+
+#Contact {
+  top: 200px;
+  background-color: rgb(248, 106, 227)
+}
+/*Individual design of every sidenav element*/
+
+#Biology {text-decoration: none;
+    font-size: 150%;
+    font-weight:400;
+    color: white ;
+    border: 1px solid white;
+    padding: 0.65em 1.7em;
+    display: inline-block;
+    overflow: hidden;
+    border-radius: 2px;
+    transition: all 0.6s ease 0s;
+    cursor: pointer;
+    outline: none;
+    background-color:transparent;
+    width:49%;
+    opacity:0.7}
+    
+#Biology:hover{background-color:transparent; color: rgb(0, 204, 204); border-color: white}
+
+#History {text-decoration: none;
+    font-size: 150%;
+    font-weight:400;
+    color: white ;
+    border: 1px solid white;
+    padding: 0.65em 1.7em;
+    display: inline-block;
+    overflow: hidden;
+    border-radius: 2px;
+    transition: all 0.6s ease 0s;
+    cursor: pointer;
+    outline: none;
+    background-color:transparent;
+    width:49%;
+    opacity:0.7}
+#History:hover{background-color:transparent; color: rgb(0, 204, 204); border-color: white}
+
+#Psychology {text-decoration: none;
+    font-size: 150%;
+    font-weight:400;
+    color: white ;
+    border: 1px solid white;
+    padding: 0.65em 1.7em;
+    display: inline-block;
+    overflow: hidden;
+    border-radius: 2px;
+    transition: all 0.6s ease 0s;
+    cursor: pointer;
+    outline: none;
+    background-color:transparent;
+    width:49%;
+    opacity:0.7}
+#Psychology:hover{background-color:transparent; color: rgb(0, 204, 204); border-color:white}
+
+#Sports {text-decoration: none;
+    font-size: 150%;
+    font-weight:400;
+    color: white ;
+    border: 1px solid white;
+    padding: 0.65em 1.7em;
+    display: inline-block;
+    overflow: hidden;
+    border-radius: 2px;
+    transition: all 0.6s ease 0s;
+    cursor: pointer;
+    outline: none;
+    background-color:transparent;
+    width:49%;
+    opacity:0.7}
+#Sports:hover{background-color:transparent; color: rgb(0, 204, 204); border-color:white}
+
+#Geography {text-decoration: none;
+    font-size: 150%;
+    font-weight:400;
+    color: white ;
+    border: 1px solid white;
+    padding: 0.65em 1.7em;
+    display: inline-block;
+    overflow: hidden;
+    border-radius: 2px;
+    transition: all 0.6s ease 0s;
+    cursor: pointer;
+    outline: none;
+    background-color:transparent;
+    width:49%;
+    opacity:0.7}
+#Geography:hover{background-color:transparent; color: rgb(0, 204, 204); border-color:white}
+
+body {background-image: url("https://cdn.pixabay.com/photo/2016/06/02/02/33/triangles-1430105_1280.png"); margin-left:5%; background-size:cover; opacity:0.9}
+
+#main {margin-left:15%; margin-right:15%}
+
+</style>
+</head>
+
+<body>
+
+<div id="mySidenav" class="sidenav">
+  <a href="#" id="Home">Home</a>
+  <br>
+  <a href="#" id="Topics">Topics</a>
+  <br>
+  <a href="#" id="Projects">Projects</a>
+  <br>
+  <a href="#" id="Contact">Contact</a>
+</div>
+<div id="main">
+
+<p>
+<a href="https://www.html-seminar.de/html-leerzeichen.htm"><button type="button" id="Biology">Biology</button></a>
+<a href="https://www.html-seminar.de/html-leerzeichen.htm"><button type="button" id="History">History</button></a>
+<br>
+<a href="https://www.html-seminar.de/html-leerzeichen.htm"><button type="button" id="Geography">Geography</button></a>
+<a href="https://www.html-seminar.de/html-leerzeichen.htm"><button type="button" id="Psychology">Psychology</button></a>
+<br>
+<a href="https://www.html-seminar.de/html-leerzeichen.htm"><button type="button" id="Sports">Sports</button></a>
+</p>
+</div>
+</body>
+
+</html>
