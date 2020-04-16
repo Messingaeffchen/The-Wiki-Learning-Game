@@ -9,8 +9,8 @@
 #NewGameButton{text-decoration: none;
     font-size: 130%;
     font-weight:600;
-    color: white;
-    border: 1px solid white;
+    color: rgba(255, 255, 255, .75);
+    border: 2px solid rgba(255, 255, 255, .75);
     padding: 0.65em 1.7em;
     display: inline-block;
     overflow: auto;
@@ -24,7 +24,7 @@
 /*Design of "Start-Game"-button*/
 
 /*Distance between main content and sidenav*/
-#main-page {margin-left:20%; margin-right:20%; border-radius:2px; border:solid rgba(255, 255, 255, .75)}
+#main-page {margin-left:15%; margin-right:15%; border-radius:2px; border:solid rgba(255, 255, 255, .75); padding:5%}
 /*Distance between main content and sidenav*/
 
 /*Design of Background image*/
@@ -32,13 +32,13 @@ body {background-image: url("https://cdn.pixabay.com/photo/2016/06/02/02/33/tria
 /*Design of Background image*/
 
 /*Design of headlines*/
-h1{text-align:center; color: rgb(0, 204, 204); font-family:"Helvetica", sans-serif, monospace; font:italic; text-shadow: 00 1px grey; letter-spacing:1px; font-weight:600}
+h1{text-align:center; color: rgb(0, 204, 204); font-family:"Helvetica", sans-serif, monospace; font:italic; letter-spacing:1px; font-weight:600}
 
-h2{color: rgb(0, 204, 204); text-shadow: 00 1px grey; opacity:0.9; font-weight:600}
+h2{color: rgb(0, 204, 204); opacity:0.9; font-weight:600}
 
-h3{color: rgb(0, 204, 204); text-shadow: 00 1px grey; opacity:0.9; font-weight:600}
+h3{color: rgb(0, 204, 204); opacity:0.9; font-weight:600}
 
-h4{color: rgb(0, 204, 204); text-shadow: 00 1px grey; opacity:0.9; font-weight:600}
+h4{color: rgb(0, 204, 204); opacity:0.9; font-weight:600}
 /*Design of headlines*/
 
 /*Design of sidenav element as a whole*/
@@ -63,12 +63,12 @@ h4{color: rgb(0, 204, 204); text-shadow: 00 1px grey; opacity:0.9; font-weight:6
 /*Design of sidenav element as a whole*/
 
 /*Individual design of every sidenav element*/
-#about {
+#Home {
   top: 20px;
   background-color: rgb(0, 204, 204);
 margin-bottom:20px}
 
-#blog {
+#Topics {
   top: 80px;
   background-color: rgb(237, 99, 48);
 }
@@ -90,9 +90,9 @@ margin-bottom:20px}
 
 <!--Denominantion of each sidenav element with an individual id-->
 <div id="mySidenav" class="sidenav">
-  <a href="#" id="about">About</a>
+  <a href="#" id="Home">Home</a>
   <br>
-  <a href="#" id="blog">Blog</a>
+  <a href="#" id="Topics">Topics</a>
   <br>
   <a href="#" id="projects">Projects</a>
   <br>
