@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32">    
+<meta name="description" content="This Website contains a Learning-Game that uses Wikipedia articles about various topics to make practising and studying fun!">
+<meta name="msapplication-TileColor" content="favicon-32x32.png">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="favicon-32x32.png">
+<title>The Wiki-Learning Game</title>
+<style>
+
+/*Design of "Start Game"-button*/
+#NewGameButton{text-decoration: none;
+    font-size: 150%;
+    font-weight:600;
+    color: rgba(255, 255, 255, .75);
+    border: 2px solid rgba(255, 255, 255, .75);
+    padding: 0.65em 1.7em;
+    display: inline-block;
+    overflow: auto;
+    border-radius: 2px;
+    transition: all 0.6s ease 0s;
+    cursor: pointer;
+    outline: none;
+    background-color:transparent;
+    opacity:0.9}
+#NewGameButton:hover{background-color:transparent; color: rgb(0, 204, 204); border-color: rgb(0, 204, 204)}
+/*Design of "Start-Game"-button*/
+
+/*Distance between main content and sidenav*/
+#main-page {margin-left:15%; margin-right:15%; margin-top: -100px; border-radius:2px; border:solid rgba(255, 255, 255, .75); padding:5%; background-color: rgba(0, 0, 0, .2)}
+/*Distance between main content and sidenav*/
+
+/*Design of Background image*/
+body {background-image: url("https://cdn.pixabay.com/photo/2016/06/02/02/33/triangles-1430105_1280.png"); color:white; font-family:sans-serif, monospace; background-attachment:fixed; background-size:cover; opacity:0.8; background-color: rgba(105, 105, 105, .75)}
+/*Design of Background image*/
+
+/*Design of headlines*/
+h1{text-align:center; color: rgb(0, 204, 204); font-family:"Helvetica", sans-serif, monospace; font:italic; letter-spacing:1px; font-weight:600}
+
+h2{color: rgb(0, 204, 204); opacity:0.9; font-weight:600}
+
+h3{color: rgb(0, 204, 204); opacity:0.9; font-weight:600}
+
+h4{color: rgb(0, 204, 204); opacity:0.9; font-weight:600}
+/*Design of headlines*/
+
+/*Design of sidenav element as a whole*/
+#mySidenav a {
+  position: fixed;
+  left: -140px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 150px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  opacity: 0.8;
+  margin-top:60px; 
+  letter-spacing:1px;
+  text-align:center;
+  font-weight:600}
+
+#mySidenav a:hover {
+  left:0;
+}
+/*Design of sidenav element as a whole*/
+
+/*Individual design of every sidenav element*/
+#Home {
+  top: 20px;
+  background-color: rgb(0, 204, 204);
+margin-bottom:20px}
+
+#Topics {
+  top: 80px;
+  background-color: rgb(237, 99, 48);
+}
+
+#projects {
+  top: 140px;
+  background-color: rgb(184, 45, 54);
+}
+
+#contact {
+  top: 200px;
+  background-color: rgb(248, 106, 227)
+}
+/*Individual design of every sidenav element*/
+
+.material-icons {font-size:40px; color: rgb(0, 204, 204); margin-left:92%; margin-top:75px}
+.material-icons:hover{color:white; opacity: 0.5}
+
+</style>
+</head>
+<body>
+
+<a href="https://messingaeffchen.github.io/The-Wiki-Learning-Game/topics.html#"><span class="material-icons">
+language
+</span></a>
+<!--Denominantion of each sidenav element with an individual id-->
+<div id="mySidenav" class="sidenav">
+  <a href="https://messingaeffchen.github.io/The-Wiki-Learning-Game/#" id="Home">Startseite</a> 
+  <br>
+  <a href="https://messingaeffchen.github.io/The-Wiki-Learning-Game/topics.html" id="Topics">Themen</a>
+  <br>
+  <a href="#" id="projects">Projekte</a>
+  <br>
+  <a href="#" id="contact">Kontakt</a>
+</div>
+<!--Denominantion of each sidenav element with an individual id-->
+
+<!--Denomination of the contents of the main page with an individual id-->
+<div id="main-page">
+<h1>
+Das Wiki-Lernspiel
+</h1>
+<br>
+<p>
+<center><strong>Herzlich willkommen zum Wiki-Lernspiel!</strong></center></p>
+<br>
+<p><strong><center>Dieses Spiel soll dir dabei helfen Fakten zu verschiedenen Themengebieten zu erlernen, zu wiederholen und dir diese auf spielerische Weise <em>und</em> mit jeder Menge Spaß einzuprägen.</center></strong>
+<br>
+<br>
+<center><h2>
+So funktioniert's
+</h2></center>
+<!--The steps are presented in the form of an unordered list-->
+<ol>
+<h4>
+<li>Wähle ein Thema aus:</li></h4>
+<p>Das Spiel funktioniert eigentlich ganz einfach: Um ein neues Spiel zu beginnen, musst du zuerst ein Themengebiet auswählen. Nachdem du das getan hast, wirst du automatisch zum ersten Level weitergeleitet.</p>
+<h4>
+<li>Finde die Fehler:</li></h4>
+<p>Jedes Level besteht aus Abschnitten von Wikipedia-Artikeln, die sich auf den ausgewählten Themenbereich beziehen. Beim Lesen des Textes wirst du allerdings schnell feststellen, dass in diesem einige Fehler versteckt sind.
+<h4>
+<li>Korrigiere die Fehler:</li>
+</h4>
+<p>Wenn du glaubst, dass du einen Fehler im Text gefunden hast, kannst du herausfinden ob du richtig liegst, indem du das fehlerhafte Wort anklickst. Falls es sich bei diesem Wort tatsächlich um einen der gesuchten Fehler handelt, wird an dessen Stelle ein Textfeld erscheinen. In dieses Textfeld kannst du dann deine Lösung eintragen.<br>
+Falls du die korrekte Lösung eingegeben hast, werden sich die Buchstaben des Wortes grün färben, falls du die korrekte Lösung noch nicht gefunden hast, bleiben die Buchstaben rot. 
+</p>
+<h4>
+<li>Gehe zum nächsten Level:</li>
+</h4>
+<p>
+Nachdem du alle Fehler im Text korrigiert hast, erscheint am Ende der Seite ein Button, der dich beim Anklicken zum nächsten Level weiterleitet. 
+<br>
+<br>
+</p>
+<h3>
+<center>Klick auf den Button um ein neues Spiel zu beginnen!</center>
+</h3>
+<br>
+<br>
+<!--The Start-Game button is demoninated with an individual id, this element is a button that contains a link to another webpage-->
+<center><a href="https://messingaeffchen.github.io/The-Wiki-Learning-Game/topics.html#"><button type="button" id="NewGameButton">Start Game</button></a></center>
+<!--The Start-Game button is demoninated with an individual id, this element is a button that contains a link to another webpage-->
+<br>
+<br>
+</ol>
+<!--The steps are presented in the form of an unordered list-->
+</div>
+<!--Denomination of the contents of the main page with an individual id-->
+</body>
+</html>
